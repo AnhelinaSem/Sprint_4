@@ -22,9 +22,7 @@ class TestBooksCollector:
     # напиши свои тесты ниже
     # чтобы тесты были независимыми в каждом из них создавай отдельный экземпляр класса BooksCollector()
 
-    @pytest.fixture
-    def collector():
-        return BooksCollector()
+
 
     @pytest.mark.parametrize("book_name", [
         "Interesting Book",
